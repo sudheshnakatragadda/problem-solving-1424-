@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	float p,r,t,a,ci,pow;
+	printf("enter principle,rate and time \n");
+	scanf("%f%f%f",&p,&r,&t);
+    a=p*((1+r/100)*t);
+    ci=a-p;
+	printf("\n the compound intrest =%f",ci);
+	return 0;
+}
