@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+	int a,b,sum,sub,mul,div;
+	printf("Enter 2 nos");
+	scanf("%d%d",&a,&b);
+	sum=a+b;
+	sub=a-b;
+	mul=a*b;
+	div=a/b;
+	printf("The sum is %d",sum);
+	printf("\nThe difference is %d",sub);
+	printf("\nThe product is %d",mul);
+	printf("\nThe Div is %d",div);	
+}
